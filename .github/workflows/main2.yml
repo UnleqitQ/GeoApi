@@ -14,4 +14,4 @@ jobs:
     steps:
       - uses: actions/labeler@v2
         with:
-          repo-token: ${{ secrets.SHA256:OjbNP28jyjjMaZmZPb8F/F3ZcWus9q3ZhkI5xWtJMJw }}
+          repo-token: ${{ secrets.quinty }}
