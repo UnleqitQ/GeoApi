@@ -1,6 +1,8 @@
 name: Pull request labeler
 
-on: [ pull_request_target ]
+on:
+  schedule:
+  - cron: "5 * * * *"
 
 permissions:
   contents: read
