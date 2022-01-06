@@ -2,7 +2,7 @@ name: Pull request labeler
 
 on:
   schedule:
-  - cron: "1 * * * *"
+  - cron: "* * * * *"
 
 permissions:
   contents: read
