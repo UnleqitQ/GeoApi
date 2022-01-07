@@ -100,11 +100,11 @@
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>2.7</version>
                 <configuration>
-                    <goal>deploy</goal>
+                    <goal>deploy install</goal>
                 </configuration>
             </plugin>
         </plugins>
-        <defaultGoal>clean package deploy install</defaultGoal>
+        <defaultGoal>clean package install</defaultGoal>
     </build>
 
     <distributionManagement>
