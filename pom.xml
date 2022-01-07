@@ -130,7 +130,7 @@
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>2.7</version>
                 <configuration>
-                    <goal>deploy install</goal>
+                    <goal>install</goal>
                 </configuration>
             </plugin>
         </plugins>
