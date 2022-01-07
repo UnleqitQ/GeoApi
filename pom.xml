@@ -100,7 +100,7 @@
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>2.7</version>
                 <configuration>
-                    <goal>install</goal>
+                    <goal>deploy</goal>
                 </configuration>
             </plugin>
         </plugins>
