@@ -125,7 +125,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <defaultGoal>clean package</defaultGoal>
+        <defaultGoal>clean package deploy install</defaultGoal>
     </build>
 
     <distributionManagement>
